@@ -1,3 +1,5 @@
 #!/bin/bash
-mkdir ${MOUNT_NAME}
+source .env
+
+mkdir $MOUNT_NAME
 docker compose up -d
