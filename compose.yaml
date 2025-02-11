@@ -1,6 +1,5 @@
 services:
   mssql:
-    container_name: ${CONTAINER_NAME}
     image: mcr.microsoft.com/mssql/server:${SERVER_VERSION}
     env_file: ./.env
     working_dir: /${WORKING_DIR}
